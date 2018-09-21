@@ -15,21 +15,21 @@ window.onload = function(){
 
 	if(n > 1){
 		document.getElementById("titulo").innerHTML = "Bienvendio usuario de Firefox";
-		imagen.src = "direccion de la imagen con el nombre";
+		imagen.src = "img/fire.jpg";
 		imagen.style.width = "100px";
 		imagen.style.height = "100px";
 	}
 
 	if(c > 1){
 		document.getElementById("titulo").innerHTML = "Bienvendio usuario de Chrome";
-		imagen.src = "img/moto.png"
+		imagen.src = "img/google.jpg"
 		imagen.style.width = "500px";
 		imagen.style.height = "500px";
 	}
 
 	if(s > 1 && c < 1){
 		document.getElementById("titulo").innerHTML = "Bienvendio usuario de Safari";
-		imagen.src = "direccion de la imagen con el nombre";
+		imagen.src = "img/safari.jpg";
 		imagen.style.width = "100px";
 		imagen.style.height = "100px";
 	}
