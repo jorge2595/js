@@ -87,6 +87,7 @@ El método window.location.assign() carga un nuevo documento.
 function newDoc() {
     window.location.assign("navegador.html")
     }
+    4
 
 
 /*==================================================================================
